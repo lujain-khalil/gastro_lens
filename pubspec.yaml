@@ -1,0 +1,55 @@
+name: gastro_lens
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  dynamic_color: ^1.7.0
+  flutter_launcher_icons: ^0.11.0
+  path_provider: ^2.0.15
+  path: ^1.9.0
+  http: ^1.2.1
+  flutter_rating_bar: ^4.0.1
+  transparent_image: ^2.0.1
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  persistent_bottom_nav_bar: ^6.2.1
+  percent_indicator: ^4.2.3
+  google_fonts: ^6.2.1
+  image: ^3.3.0
+  image_picker: ^1.1.2
+  tflite_flutter_plus: ^0.0.1
+  tflite_flutter_helper_plus: ^0.0.2
+  camera: ^0.10.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/classes/
+    - assets/uploads/
+    - assets/uploads/Angiectasia/
+    - assets/uploads/Erosion/
+    - assets/uploads/ForeignBody/
+    - assets/uploads/IleocecalValve/
+    - assets/uploads/Lymphangiectasia/
+    - assets/uploads/NormalCleanMucosa/
+    - assets/uploads/Pylorus/
+    - assets/uploads/ReducedMucosalView/
+    - assets/uploads/Ulcer/
