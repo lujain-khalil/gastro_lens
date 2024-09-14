@@ -1,11 +1,27 @@
 # On-Edge Deployment of Vision Transformers for Medical Diagnostics Using the Kvasir-Capsule Dataset
-_Dara Varam, Lujain Khalil and Dr. Tamer Shanableh_
+_Dara Varam, Lujain Khalil, and Dr. Tamer Shanableh_
 
-This repository contains the necessary code and instructions for developing an android application suitable for model deployment.
+This repository contains the necessary code for developing an Android application suitable for model deployment.
 
-This is the official Flutter of our paper, "On-Edge Deployment of Vision Transformers for Medical Diagnostics: A Study on the Kvasir-Capsule Dataset," published in MDPI Applied Sciences (10th September, 2024). The paper can be accessed [here](https://www.mdpi.com/2076-3417/14/18/8115)
+This is the official Flutter implementation of our paper, ["On-Edge Deployment of Vision Transformers for Medical Diagnostics: A Study on the Kvasir-Capsule Dataset"](https://www.mdpi.com/2076-3417/14/18/8115), published in MDPI Applied Sciences (10th September, 2024).
 
-### Citation
+Details of our Keras implementation can be accessed here: [https://github.com/DaraVaram/Lightweight-ViTs-for-Medical-Diagnostics](https://github.com/DaraVaram/Lightweight-ViTs-for-Medical-Diagnostics).
+
+![image](https://github.com/user-attachments/assets/aff3d0dc-4488-4323-babc-ae2cdd063fdf)
+
+## User Interface
+### Home screen and Drawer
+![image](https://github.com/user-attachments/assets/c86f67df-5be7-442a-9677-73a3d1c60930)
+
+### Classification scenarios at image uploads
+![image](https://github.com/user-attachments/assets/7a317085-6309-4c77-ada2-3ba55c90f64a)
+(a) An image is uploaded and classified correctly by the model. 
+(b) An image is uploaded and classified incorrectly by the model. The user can choose the correct class from a drop-down menu.
+
+### Report screen
+![image](https://github.com/user-attachments/assets/39081047-0f32-4aad-9db9-ea67b1c2cb19)
+
+## BibTeX Citation
 MDPI paper citation
 ```
 @Article{app14188115,
@@ -22,7 +38,7 @@ ABSTRACT = {This paper aims to explore the possibility of utilizing vision trans
 DOI = {10.3390/app14188115}
 }
 ```
-Full Kvasir-Capsule dataset available [here](https://datasets.simula.no/kvasir-capsule/).
+Full Kvasir-Capsule dataset available here: [https://datasets.simula.no/kvasir-capsule/](https://datasets.simula.no/kvasir-capsule/).
 ```
 @article{Smedsrud2021,
   title = {{Kvasir-Capsule, a video capsule endoscopy dataset}},
